@@ -638,6 +638,10 @@ bottom:80px !important
   margin-right: 30px !important;
 z-index: 1;
 }
+#skills{
+position: relative !important;
+ margin-top: -340px !important;
+}
 .navbar-collapse{
 position: absolute !important;
 background-color: #fff;
