@@ -354,25 +354,6 @@ height: 100%;
 
 /*PORTFOLIO*/
 
-.content , .contenttt{
-width:647px;
-height:295px;
-top:245px;
-position: absolute;
-background-color: rgba(0, 0, 0, 0.6);
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-opacity: 0;
-transition: 0.6s;
-}
-
-.content:hover, .contenttt:hover {
-  opacity: 1;
-  color: #ffff;
-
-}
 
 /*PORTFOLIO*/
 
@@ -501,48 +482,28 @@ float: right;
   position: relative !important;
 }
 
-.content {
-  width:94% !important;
-  height:170px !important;
-  top:200px !important;
-  position: absolute !important;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center;
-text-align: center;
-  opacity: 0;
-  transition: 0.6s;
-flex-direction: column !important;
-  }
 
-.contenttt{
-  width:94% !important;
-  height:160px !important;
-  background-color: rgba(0, 0, 0, 0.6);
-display: flex;
-  top:2px !important;
-  position: absolute !important;
-  justify-content: center !important;
-  align-items: center;
-text-align: center;
-  opacity: 0;
-  transition: 0.6s;
-flex-direction: column !important;
-
-}
-  .content h1 , .contenttt h1{
-    font-size: 15px;
-  text-align: center !important;
-    gap: 10p;
-
-  }
-  .content p , .contenttt p{
+  .card-bodyy  p {
     text-align: center !important;
-    position: relative !important; 
-    margin-right: 60px !important;
+    font-size: 15px !important;
+    position: relative !important;
+    float: inline-start !important;
     top: 10px;
-    font-size: 14px;
+    left: -4px;
+  }
+  .card-bodyy h5{
+    font-size: 22px !important;
+    align-items: center;
+    float: inline-start;
+  }
+  .card-bodyy .para{
+    position: relative !important;
+    top: 40px !important;
+left: -105px !important;
+  }
+  .cardd img{
+    width: 60% !important;
+    align-items: center !important;
   }
   
   .content:hover , .contenttt:hover{
