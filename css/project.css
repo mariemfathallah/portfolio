@@ -368,11 +368,14 @@ height: 100%;
   height: 70px;
   background-color: #b95ce4;
   border-radius: 50%;
-  margin: 0 auto;
+position: relative;
   color: #fff;
-  margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+justify-items: center;
   padding: 25px;
 }
+
 
 .icon .fa-location-dot:hover,
 .fa-phone:hover,
@@ -384,22 +387,24 @@ height: 100%;
 .text a ,p{
   text-decoration: none;
   color: black !important;
+  text-align: center;
 
 }
 
 .dbox{
   position: relative;
-  top: 20px;
 align-items: center;
-  margin: 50px;
-left: 30%;
+justify-content: center;
+text-align: center;
+  margin: 90px;
+
 }
 
 
 /*CONTACT*/
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 720px) {
   .silder{
     position: relative !important;  
     bottom: 180px !important;
@@ -552,8 +557,7 @@ position: relative !important;
 }
 .text p{
   font-size: 14px !important;
-  position: relative;
-  right: 90px;
+  
 }
 .text a {
   font-size: 14px;
@@ -561,16 +565,34 @@ position: relative !important;
 
 
 } 
- #mail{
-  position: relative !important;
-  right: 35px !important;
-}
+
 .icon .fa-location-dot,
 .fa-phone,
 .fa-paper-plane {
   width: 30px;
   height: 30px;
-  padding: 15px;
+  padding: 30px;
+  position: relative;
+  left: 20px !important;
+}
+.fa-paper-plane ,.text p {
+  position: relative;
+right: 10px !important;
+}
+.text #adresse{
+  position: relative;
+left: 60px !important;
+}
+.text #mail{
+  position: relative !important;
+left: 40px  !important; 
+  text-align: center;
+
+}
+.text #tele{
+  position: relative !important;
+margin-left: 60px !important; 
+text-align: center;
 }
 .card{
   width: 80% !important;

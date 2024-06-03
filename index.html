@@ -306,7 +306,7 @@
   <!--PORTFOLIO-->
     <!--CONTACT ========-->
 <section id="contact-me">
-  <div class="container   align-items-center justify-content-center m-auto" >
+  <div class="container" style="bottom:80px; position: relative;">
     <div class="row">
       <h1 class="my-skills text-center">CONTACTEZ-MOI</h1>
    
@@ -317,7 +317,7 @@
                 <span class="fa fa-phone"></span>
               </div>
               <div class="text pl-3">
-                <p style=" font-weight: 700; font-size: 20px;" id="mail"><a href="tel://53536930">+ 216 53 536 930</a></p>
+                <p style=" font-weight: 700; font-size: 20px;" ><a href="tel://53536930" id="tele">+ 216 53 536 930</a></p>
               </div>
             </div>
 
@@ -326,7 +326,7 @@
                 <span class="fa fa-paper-plane"></span>
               </div>
               <div class="text pl-3">
-                <p style=" font-weight: 700; font-size: 20px;"> <a href="mailto:mariemfathallahdev@gmail.com" id="mail">mariemfathallahdev@gmail.com</a></p>
+                <p style=" font-weight: 700; font-size: 20px;"> <a href="mailto:mariemfathallahdev@gmail.com" id="mail">mariemfathallahdev@</br>gmail.com</a></p>
               </div>
             </div>
 
@@ -379,43 +379,7 @@
 /* ======= SCROLL TO TOP ======*/
 
 
-/* VALIDATION BOOTSTRAP */
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
-/* VALIDATION BOOTSTRAP */
-function sendEmail(){
-  Email.send({
-    SecureToken : "c16c343c-310b-4185-a1d0-7fcd00e5d435",
-    To : 'mariemfathallahdev@gmail.com',
-    From : "mariemfathallahdev@gmail.com",
-    Subject : "test email",
-    Body : "name: "  + document.getElementById("name").value
-    +"<br> Email: "   + document.getElementById("email").value
-    +"<br> Message: "   + document.getElementById("message").value
-}).then(
-
-  message => alert(message)
-);
-
-}
     </script>
 
   </body>
